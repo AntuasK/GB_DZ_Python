@@ -71,8 +71,7 @@ def sum_list_1(my_list):
     return int(g)
 
 def sum_list_2(my_list):
-    """К каждому элементу списка добавляет 17 и вычисляет сумму чисел списка,
-        сумма цифр которых делится нацело на 7"""
+
     for i in range (1, 1001, 2):
         i = i ** 3 + 17
         dataset.append(i)
